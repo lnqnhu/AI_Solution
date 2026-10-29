@@ -1,9 +1,10 @@
 {
  "currency":"VND",
- "carrier":{"name":"GHN Express · giả định demo","divisor":5000,"ratePerKg":15000},
+ "carrier":{"name":"SPX Express","baseFee":20000,"additionalParcelFee":20000,"serviceRange":{"min":15000,"max":30000},"billingMode":"per-parcel-consolidated-order"},
  "cushioning":{"name":"Màng xốp bong bóng","pricePerMeter":1200,"fragileLayers":2,"standardLayers":1,"estimatedMetersPerM2":1.5},
  "tape":{"name":"Băng keo đóng thùng","pricePerOrder":700},
  "clearance":{"standardPercent":5,"fragilePercent":15},
  "baselineCartonId":"C005",
- "note":"Thông số mô phỏng phục vụ prototype; cần xác minh trước khi sử dụng thực tế."
+ "note":"Ước tính 20.000 VND mỗi kiện, tổng phí các kiện hiển thị gộp trên một mã đơn. Khoảng 15.000–30.000 VND/kiện là tham số tham khảo; chưa kết nối API hãng vận chuyển."
 }
+

@@ -1,26 +1,400 @@
 [
- {"sku":"HPL826C","name":"Hộp bảo quản thực phẩm Classic 2.6L","category":"Nhựa","dimensions":{"L":25,"W":18,"H":9},"weight":0.32,"isFragile":false,"price":189000,"tone":"sage","icon":"▱","tag":"BÁN CHẠY"},
- {"sku":"HPL934","name":"Bộ hộp nhựa Classic 3 món","category":"Nhựa","dimensions":{"L":24,"W":18,"H":11},"weight":0.42,"isFragile":false,"price":329000,"tone":"blue","icon":"▤"},
- {"sku":"HPL817","name":"Hộp nhựa vuông 1.2L","category":"Nhựa","dimensions":{"L":16,"W":16,"H":9},"weight":0.22,"isFragile":false,"price":159000,"tone":"peach","icon":"▱"},
- {"sku":"LHC4020","name":"Bình giữ nhiệt Bucket Fit 500ml","category":"Bình","dimensions":{"L":8,"W":8,"H":23},"weight":0.31,"isFragile":false,"price":429000,"tone":"blue","icon":"♧","tag":"YÊU THÍCH"},
- {"sku":"LHC3249","name":"Bình giữ nhiệt Metro Mug 475ml","category":"Bình","dimensions":{"L":8,"W":8,"H":19},"weight":0.35,"isFragile":false,"price":499000,"tone":"peach","icon":"♧"},
- {"sku":"LHC6180","name":"Bình giữ nhiệt Active 800ml","category":"Bình","dimensions":{"L":9,"W":9,"H":27},"weight":0.48,"isFragile":false,"price":549000,"tone":"sage","icon":"♧"},
- {"sku":"LLG445","name":"Hộp thủy tinh chữ nhật 630ml","category":"Thủy tinh","dimensions":{"L":17,"W":12,"H":7},"weight":0.56,"isFragile":true,"price":219000,"tone":"lavender","icon":"▱","tag":"THỦY TINH"},
- {"sku":"LLG821","name":"Bộ hộp thủy tinh 3 món","category":"Thủy tinh","dimensions":{"L":25,"W":20,"H":12},"weight":1.35,"isFragile":true,"price":599000,"tone":"sage","icon":"▤"},
- {"sku":"LLG214","name":"Hộp thủy tinh tròn 950ml","category":"Thủy tinh","dimensions":{"L":15,"W":15,"H":9},"weight":0.72,"isFragile":true,"price":269000,"tone":"peach","icon":"◉"},
- {"sku":"HPL955","name":"Hộp nhựa LocknLock 1.8L","category":"Nhựa","dimensions":{"L":21,"W":15,"H":10},"weight":0.28,"isFragile":false,"price":199000,"tone":"blue","icon":"▱"},
- {"sku":"LHC4122","name":"Bình giữ nhiệt Feather Light 450ml","category":"Bình","dimensions":{"L":7,"W":7,"H":21},"weight":0.24,"isFragile":false,"price":649000,"tone":"lavender","icon":"♧"},
- {"sku":"LLG513","name":"Hộp thủy tinh chịu nhiệt 1.1L","category":"Thủy tinh","dimensions":{"L":20,"W":15,"H":8},"weight":0.88,"isFragile":true,"price":329000,"tone":"blue","icon":"▱"},
- {"sku":"HPL745","name":"Hộp nhựa chia ngăn 1.1L","category":"Nhựa","dimensions":{"L":19,"W":14,"H":8},"weight":0.24,"isFragile":false,"price":179000,"tone":"peach","icon":"▤"},
- {"sku":"LHC6230","name":"Bình giữ nhiệt Energetic 550ml","category":"Bình","dimensions":{"L":8,"W":8,"H":24},"weight":0.39,"isFragile":false,"price":459000,"tone":"sage","icon":"♧"},
- {"sku":"LLG331","name":"Bộ hộp thủy tinh 2 món","category":"Thủy tinh","dimensions":{"L":20,"W":16,"H":10},"weight":0.98,"isFragile":true,"price":389000,"tone":"lavender","icon":"▤"},
- {"sku":"HPL910","name":"Bộ hộp nhựa ngăn đông 5 món","category":"Nhựa","dimensions":{"L":27,"W":20,"H":14},"weight":0.63,"isFragile":false,"price":359000,"tone":"sage","icon":"▤"},
- {"sku":"LHC6115","name":"Bình giữ nhiệt Compact 350ml","category":"Bình","dimensions":{"L":7,"W":7,"H":19},"weight":0.27,"isFragile":false,"price":379000,"tone":"peach","icon":"♧"},
- {"sku":"LLG730","name":"Hộp thủy tinh chữ nhật 1.5L","category":"Thủy tinh","dimensions":{"L":23,"W":17,"H":9},"weight":1.08,"isFragile":true,"price":359000,"tone":"blue","icon":"▱"},
- {"sku":"HPL213","name":"Hộp nhựa vuông 600ml","category":"Nhựa","dimensions":{"L":12,"W":12,"H":7},"weight":0.14,"isFragile":false,"price":99000,"tone":"lavender","icon":"▱"},
- {"sku":"LHC398","name":"Bình giữ nhiệt Swing 600ml","category":"Bình","dimensions":{"L":8,"W":8,"H":25},"weight":0.41,"isFragile":false,"price":489000,"tone":"blue","icon":"♧"},
- {"sku":"LLG905","name":"Bộ hộp thủy tinh 4 món","category":"Thủy tinh","dimensions":{"L":27,"W":22,"H":13},"weight":1.7,"isFragile":true,"price":799000,"tone":"sage","icon":"▤","tag":"BỘ SƯU TẬP"},
- {"sku":"HPL604","name":"Hộp nhựa tròn Easy 700ml","category":"Nhựa","dimensions":{"L":14,"W":14,"H":8},"weight":0.17,"isFragile":false,"price":129000,"tone":"peach","icon":"◉"},
- {"sku":"LHC708","name":"Bình giữ nhiệt Metro 1L","category":"Bình","dimensions":{"L":9,"W":9,"H":29},"weight":0.56,"isFragile":false,"price":699000,"tone":"lavender","icon":"♧"},
- {"sku":"LLG121","name":"Hộp thủy tinh vuông 400ml","category":"Thủy tinh","dimensions":{"L":11,"W":11,"H":6},"weight":0.39,"isFragile":true,"price":149000,"tone":"peach","icon":"▱"}
+  {
+    "sku": "HLE5100NS2",
+    "name": "Hộp bảo quản thực phẩm Smart Keep Fresh",
+    "category": "Hộp nhựa",
+    "dimensions": {
+      "L": 18,
+      "W": 13,
+      "H": 7
+    },
+    "weight": 0.2,
+    "isFragile": false,
+    "price": 74000,
+    "tone": "sage",
+    "icon": "▱",
+    "tag": "BÁN CHẠY",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw939c376a/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HLE5100NS2_A80028093_1.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-locknlock-smart-keep-fresh-food-container-gi%E1%BB%AF-t%C6%B0%C6%A1i-m%C3%A1t---hle5100ns2/A80028093.html"
+  },
+  {
+    "sku": "LBF401-7",
+    "name": "Hộp bảo quản thực phẩm Tritan LocknLock nhiều dung tích",
+    "category": "Hộp nhựa",
+    "dimensions": {
+      "L": 24,
+      "W": 18,
+      "H": 11
+    },
+    "weight": 0.42,
+    "isFragile": false,
+    "price": 126000,
+    "tone": "blue",
+    "icon": "▤",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw54652daf/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/LBF401-7-A80028327_1.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "HFL104D18",
+    "name": "Hộp trữ đông Freezer Fit 1.65L kèm khay chia 18 ngăn",
+    "category": "Hộp nhựa",
+    "dimensions": {
+      "L": 20.7,
+      "H": 9.3,
+      "W": 13.1
+    },
+    "weight": 0.22,
+    "isFragile": false,
+    "price": 79000,
+    "tone": "peach",
+    "icon": "▱",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw2be047e8/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HFL104D18-A80024921_1.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "LHC4321",
+    "name": "Bình giữ nhiệt Sling Ring Tumbler 650ml",
+    "category": "Bình giữ nhiệt",
+    "dimensions": {
+      "L": 9,
+      "W": 9,
+      "H": 22
+    },
+    "weight": 0.38,
+    "isFragile": false,
+    "price": 491000,
+    "tone": "blue",
+    "icon": "♧",
+    "tag": "YÊU THÍCH",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw5046784c/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC4321%2CLHC4322-B80016637_7.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-sling-ring-tumbler-650ml/LHC4321.html"
+  },
+  {
+    "sku": "LHC3249",
+    "name": "Bình giữ nhiệt Energetic Tumbler 550ml",
+    "category": "Bình giữ nhiệt",
+    "dimensions": {
+      "L": 8,
+      "W": 8,
+      "H": 19
+    },
+    "weight": 0.35,
+    "isFragile": false,
+    "price": 364000,
+    "tone": "peach",
+    "icon": "♧",
+    "tag": "LOCK&LOCK",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwd2600fd1/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC3249_2.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-energetic-tumbler-550ml/LHC3249.html"
+  },
+  {
+    "sku": "LHC6180FU",
+    "name": "Bình giữ nhiệt Vacuum Bottle 800ml",
+    "category": "Bình giữ nhiệt",
+    "dimensions": {
+      "L": 9,
+      "W": 9,
+      "H": 27
+    },
+    "weight": 0.48,
+    "isFragile": false,
+    "price": 478000,
+    "tone": "sage",
+    "icon": "♧",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw8940d32f/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC6180-B80007371_2.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-vacuum-bottle-800ml/LHC6180.html"
+  },
+  {
+    "sku": "LLG445",
+    "name": "Hộp bảo quản thủy tinh chữ nhật 1.0L",
+    "category": "Hộp thủy tinh",
+    "dimensions": {
+      "L": 20,
+      "W": 15,
+      "H": 7
+    },
+    "weight": 0.56,
+    "isFragile": true,
+    "price": 146000,
+    "tone": "lavender",
+    "icon": "▱",
+    "tag": "THỦY TINH",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw9775d54e/images/thumbnails/2.Food%20Containers/1.Food%20Containers/1.Glass%20Containers/LLG445-A32347481_1.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-th%E1%BB%A7y-tinh-h%C3%ACnh-ch%E1%BB%AF-nh%E1%BA%ADt-locknlock-1.0l---llg445/A32347481.html"
+  },
+  {
+    "sku": "LLG428S5",
+    "name": "Bộ 5 hộp thủy tinh Glass Euro",
+    "category": "Hộp thủy tinh",
+    "dimensions": {
+      "L": 25,
+      "W": 20,
+      "H": 12
+    },
+    "weight": 1.35,
+    "isFragile": true,
+    "price": 472000,
+    "tone": "sage",
+    "icon": "▤",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw4fd2a465/images/Product%20contents/2.Food%20Containers/Food%20Containers/LLG428S5-A32415868_1.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-5-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%A7y-tinh-locknlock-glass-euro-llg422%2A3%2C-llg428%2A2---llg428s5/A32415868.html"
+  },
+  {
+    "sku": "LLG214",
+    "name": "Hộp bảo quản thủy tinh hình vuông 500ml",
+    "category": "Hộp thủy tinh",
+    "dimensions": {
+      "L": 14,
+      "H": 6.7,
+      "W": 14
+    },
+    "weight": 0.72,
+    "isFragile": true,
+    "price": 117000,
+    "tone": "peach",
+    "icon": "◉",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwa2da1177/images/thumbnails/2.Food%20Containers/1.Food%20Containers/1.Glass%20Containers/LLG214-A32014041_1.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "HLE5300NS2",
+    "name": "Hộp nhựa Smart Keep Fresh 760ml",
+    "category": "Hộp nhựa",
+    "dimensions": {
+      "L": 19,
+      "W": 14,
+      "H": 8
+    },
+    "weight": 0.24,
+    "isFragile": false,
+    "price": 118000,
+    "tone": "blue",
+    "icon": "▱",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwd81045c7/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HLE5300NS2_A80028080_1.png?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-nh%E1%BB%B1a-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-locknlock-smart-keep-fresh-food-container-760ml---hle5300ns2/A80028080.html"
+  },
+  {
+    "sku": "LHC3257",
+    "name": "Bình giữ nhiệt Featherlight One-Touch 500ml",
+    "category": "Bình giữ nhiệt",
+    "dimensions": {
+      "L": 7,
+      "W": 7,
+      "H": 21
+    },
+    "weight": 0.24,
+    "isFragile": false,
+    "price": 416000,
+    "tone": "lavender",
+    "icon": "♧",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw254fb72d/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC3257_1.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "LBG454BLU",
+    "name": "Hộp thủy tinh Top Class 1.6L màu xanh",
+    "category": "Hộp thủy tinh",
+    "dimensions": {
+      "L": 20,
+      "W": 15,
+      "H": 8
+    },
+    "weight": 0.88,
+    "isFragile": true,
+    "price": 208000,
+    "tone": "blue",
+    "icon": "▱",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw56a5ec39/images/Product%20contents/2.Food%20Containers/Food%20Containers/LBG454BLU-A80014136_1.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "LBF450",
+    "name": "Hộp bảo quản Bisfree Modular vuông 260ml",
+    "category": "Hộp nhựa",
+    "dimensions": {
+      "L": 19,
+      "W": 14,
+      "H": 8
+    },
+    "weight": 0.24,
+    "isFragile": false,
+    "price": 64000,
+    "tone": "peach",
+    "icon": "▤",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw5c4ea703/images/Product%20contents/2.Food%20Containers/Food%20Containers/LBF450-A20023673_1.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "LHC4160",
+    "name": "Bình giữ nhiệt Riga Tumbler 897ml",
+    "category": "Bình giữ nhiệt",
+    "dimensions": {
+      "L": 8,
+      "W": 8,
+      "H": 24
+    },
+    "weight": 0.39,
+    "isFragile": false,
+    "price": 450000,
+    "tone": "sage",
+    "icon": "♧",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwe4434fe4/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC4160-B32669556_1.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-bang-thep-khong-gi-rigatumbler/LHC4160.html"
+  },
+  {
+    "sku": "LLG301S3",
+    "name": "Bộ 3 hộp thủy tinh Easy Meal",
+    "category": "Hộp thủy tinh",
+    "dimensions": {
+      "L": 20,
+      "W": 16,
+      "H": 10
+    },
+    "weight": 0.98,
+    "isFragile": true,
+    "price": 266000,
+    "tone": "lavender",
+    "icon": "▤"
+  },
+  {
+    "sku": "HPL510",
+    "name": "Hộp bảo quản gạo Special 12L",
+    "category": "Hộp nhựa",
+    "dimensions": {
+      "L": 27,
+      "W": 20,
+      "H": 14
+    },
+    "weight": 0.63,
+    "isFragile": false,
+    "price": 402000,
+    "tone": "sage",
+    "icon": "▤",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw1f48cb5c/images/Product%20contents/2.Food%20Containers/Food%20Containers/HPL510-A32011621_1.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-g%E1%BA%A1o-special-12l-hpl510/A32011621.html"
+  },
+  {
+    "sku": "LHC1487",
+    "name": "Bình giữ nhiệt Maman Cup 505ml",
+    "category": "Bình giữ nhiệt",
+    "dimensions": {
+      "L": 7,
+      "W": 7,
+      "H": 19
+    },
+    "weight": 0.27,
+    "isFragile": false,
+    "price": 403000,
+    "tone": "peach",
+    "icon": "♧",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw9da07a26/images/thumbnails/1.Beverageware/2.To-go/LHC1487-lifestyle.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "LLG215",
+    "name": "Hộp thủy tinh Clear Square 540ml",
+    "category": "Hộp thủy tinh",
+    "dimensions": {
+      "L": 23,
+      "W": 17,
+      "H": 9
+    },
+    "weight": 1.08,
+    "isFragile": true,
+    "price": 84000,
+    "tone": "blue",
+    "icon": "▱",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw972b78ec/images/Product%20contents/2.Food%20Containers/Food%20Containers/LLG215.jfif?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-th%E1%BB%A7y-tinh-locknlock-glass-clear-square-a.f.c-540ml---llg215/A32338641.html"
+  },
+  {
+    "sku": "LBF402S5SP",
+    "name": "Bộ 5 hộp bảo quản Bisfree Modular",
+    "category": "Hộp nhựa",
+    "dimensions": {
+      "L": 12,
+      "W": 12,
+      "H": 7
+    },
+    "weight": 0.14,
+    "isFragile": false,
+    "price": 471000,
+    "tone": "lavender",
+    "icon": "▱"
+  },
+  {
+    "sku": "LHC4440",
+    "name": "Bình giữ nhiệt Blissoul Pure Tumbler 700ml",
+    "category": "Bình giữ nhiệt",
+    "dimensions": {
+      "L": 8,
+      "W": 8,
+      "H": 25
+    },
+    "weight": 0.41,
+    "isFragile": false,
+    "price": 574000,
+    "tone": "blue",
+    "icon": "♧",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwcecbd6ea/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC4440-B80025185_1.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%C3%ACnh-gi%E1%BB%AF-nhi%E1%BB%87t-ph%E1%BB%A7-s%E1%BB%A9-locknlock-blissoul-pure-tumbler-lhc4440-c%C3%B3-quai-x%C3%A1ch-dung-t%C3%ADch-700ml---6-m%C3%A0u/LHC4440.html"
+  },
+  {
+    "sku": "LLG205S6",
+    "name": "Bộ 6 hộp thủy tinh LocknLock",
+    "category": "Hộp thủy tinh",
+    "dimensions": {
+      "L": 27,
+      "W": 22,
+      "H": 13
+    },
+    "weight": 1.7,
+    "isFragile": true,
+    "price": 422000,
+    "tone": "sage",
+    "icon": "▤",
+    "tag": "BỘ SƯU TẬP",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw4aad59f4/images/thumbnails/2.Food%20Containers/1.Food%20Containers/1.Glass%20Containers/LLG205S6-A32336631_1.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-6-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-th%E1%BB%B1c-ph%E1%BA%A9m-locknlockx6p-llg205x2%2C-llg422x2%2C-llg821x2-wcolor-box---llg205s6/A32336631.html"
+  },
+  {
+    "sku": "HPP453NVY",
+    "name": "Bình ngâm nước hoa quả LocknLock 4.2L",
+    "category": "Bình nước",
+    "dimensions": {
+      "L": 14,
+      "H": 28,
+      "W": 14
+    },
+    "weight": 0.17,
+    "isFragile": false,
+    "price": 111000,
+    "tone": "peach",
+    "icon": "◉",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwcaea167a/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HPP453NVY-A80022291_1.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "LHC8042NVY",
+    "name": "Hộp giữ nhiệt 2 ngăn inox 700ml",
+    "category": "Hộp cơm",
+    "dimensions": {
+      "L": 12,
+      "H": 16,
+      "W": 12
+    },
+    "weight": 0.45,
+    "isFragile": false,
+    "price": 621000,
+    "tone": "lavender",
+    "icon": "♧",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw3f5fa763/images/thumbnails/2.Food%20Containers/3.Lunch%20Boxes/1.Insulated%20Lunch%20Boxes/LHC8042-B80010827_1.jpg?q=69&sw=800"
+  },
+  {
+    "sku": "LLG242",
+    "name": "Hộp thủy tinh chịu nhiệt nắp Tritan 800ml",
+    "category": "Hộp thủy tinh",
+    "dimensions": {
+      "L": 11,
+      "W": 11,
+      "H": 6
+    },
+    "weight": 0.39,
+    "isFragile": true,
+    "price": 132000,
+    "tone": "peach",
+    "icon": "▱"
+  }
 ]
