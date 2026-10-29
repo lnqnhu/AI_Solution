@@ -1,0 +1,7 @@
+[
+ {"cartonId":"C001","name":"Mailer mini","dimensions":{"L":20,"W":16,"H":10},"cost":2500,"maxLoad":2,"stock":80,"color":"#e4bd80"},
+ {"cartonId":"C002","name":"Small tuck-top","dimensions":{"L":27,"W":21,"H":14},"cost":3800,"maxLoad":4,"stock":120,"color":"#d9ae70"},
+ {"cartonId":"C003","name":"Medium regular","dimensions":{"L":34,"W":27,"H":21},"cost":5500,"maxLoad":7,"stock":90,"color":"#d2a467"},
+ {"cartonId":"C004","name":"Large double-wall","dimensions":{"L":42,"W":33,"H":28},"cost":8500,"maxLoad":12,"stock":55,"color":"#c69557"},
+ {"cartonId":"C005","name":"XL bulk carton","dimensions":{"L":55,"W":43,"H":36},"cost":13500,"maxLoad":20,"stock":24,"color":"#b8844d"}
+]
