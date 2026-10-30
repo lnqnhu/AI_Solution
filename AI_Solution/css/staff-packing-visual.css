@@ -14,5 +14,9 @@
 .packing-diagram-head>div{display:grid;gap:3px}.packing-diagram-head b{font-size:16px;color:#294b5d}.packing-diagram-head span{font-size:13px;color:#748790}
 .diagram-legend{display:flex;align-items:center;gap:6px;white-space:nowrap}.diagram-legend i{width:11px;height:11px;border-radius:50%;background:#dcebf0;border:2px solid #3c7188}
 .packing-diagram svg{display:block;width:100%;max-height:250px;min-height:100px;margin:6px auto;overflow:visible}
+.packing-diagram .carton-outline{fill:#fffaf1;stroke:#bd8b52;stroke-width:3}
+.diagram-legend{gap:5px!important;font-size:12px!important}
+.diagram-legend i.legend-carton{width:15px;height:11px;border:2px solid #bd8b52;border-radius:2px;background:#fffaf1}
+.diagram-legend i.legend-cushion{width:13px;height:13px;border:1.5px dashed #d6d1bf;border-radius:50%;background:#fffdf6}
 .packing-diagram>small{display:block;color:#697d87;font-size:12px;line-height:1.5}
 @media(max-width:520px){.staff-welcome p,.panel-head p,.order-desc,.criteria,.cost-row{font-size:13px}.packing-diagram{padding:12px}.packing-diagram-head b{font-size:15px}}
