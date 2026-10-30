@@ -21,7 +21,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LBF401-7",
@@ -43,7 +44,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "HFL104D18",
@@ -65,7 +67,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LHC4321",
@@ -89,7 +92,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "cylinder"
   },
   {
     "sku": "LHC3249",
@@ -113,7 +117,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "cylinder"
   },
   {
     "sku": "LHC6180FU",
@@ -136,7 +141,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "cylinder"
   },
   {
     "sku": "LLG445",
@@ -160,7 +166,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LLG428S5",
@@ -183,7 +190,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LLG214",
@@ -205,7 +213,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "HLE5300NS2",
@@ -228,7 +237,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LHC3257",
@@ -250,7 +260,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "cylinder"
   },
   {
     "sku": "LBG454BLU",
@@ -272,7 +283,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LBF450",
@@ -294,7 +306,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LHC4160",
@@ -317,7 +330,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "cylinder"
   },
   {
     "sku": "LLG301S3",
@@ -340,7 +354,8 @@
     "allowNesting": false,
     "dimensionsEstimated": true,
     "image": "https://image2.lotteimall.com/goods/53/55/53/2143535553_5.jpg/dims/resizemc/550x550/optimize",
-    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-3-h%E1%BB%99p-th%E1%BB%A7y-tinh-%C4%91%E1%BB%B1ng-th%E1%BB%A9c-%C4%83n-locknlock-easy-meal-glass-container-llg301s3-250ml%2A3-llg302s3-355ml%2A3/LLG302S3%2B%2B%2BLLG301S3.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-3-h%E1%BB%99p-th%E1%BB%A7y-tinh-%C4%91%E1%BB%B1ng-th%E1%BB%A9c-%C4%83n-locknlock-easy-meal-glass-container-llg301s3-250ml%2A3-llg302s3-355ml%2A3/LLG302S3%2B%2B%2BLLG301S3.html",
+    "shape": "box"
   },
   {
     "sku": "HPL510",
@@ -363,7 +378,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LHC1487",
@@ -385,7 +401,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "cylinder"
   },
   {
     "sku": "LLG215",
@@ -408,7 +425,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LBF402S5SP",
@@ -431,7 +449,8 @@
     "allowNesting": false,
     "dimensionsEstimated": true,
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw9f863753/images/Product%20contents/2.Food%20Containers/Food%20Containers/LBF402S6SP-A80003393_1.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-5-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-h%C3%ACnh-ch%E1%BB%AF-nh%E1%BA%ADt-locknlock-bisfree-modular-lbf401%2A2%2C-lbf402%2A2%2C-lbf405%2A1---m%C3%A0u-n%C3%A2u---lbf402s5sp/A80003840.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-5-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-h%C3%ACnh-ch%E1%BB%AF-nh%E1%BA%ADt-locknlock-bisfree-modular-lbf401%2A2%2C-lbf402%2A2%2C-lbf405%2A1---m%C3%A0u-n%C3%A2u---lbf402s5sp/A80003840.html",
+    "shape": "box"
   },
   {
     "sku": "LHC4440",
@@ -454,7 +473,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "cylinder"
   },
   {
     "sku": "LLG205S6",
@@ -478,7 +498,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "HPP453NVY",
@@ -500,7 +521,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "cylinder"
   },
   {
     "sku": "LHC8042NVY",
@@ -522,7 +544,8 @@
     "isHollow": false,
     "internalDimensions": null,
     "allowNesting": false,
-    "dimensionsEstimated": true
+    "dimensionsEstimated": true,
+    "shape": "box"
   },
   {
     "sku": "LLG242",
@@ -545,7 +568,8 @@
     "allowNesting": false,
     "dimensionsEstimated": true,
     "image": "https://down-th.img.susercontent.com/file/th-11134207-81zte-mhz5tnjaxi4j0a",
-    "productUrl": "https://www.locknlock.vn/vi-vn/hop-thuy-tinh-chiu-nhiet-nap-vom-nhua-tritan-locknlock/B80005865.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/hop-thuy-tinh-chiu-nhiet-nap-vom-nhua-tritan-locknlock/B80005865.html",
+    "shape": "box"
   },
   {
     "sku": "LBW240W",
@@ -574,6 +598,7 @@
     },
     "allowNesting": true,
     "dimensionsEstimated": true,
-    "measurementNote": "Kích thước ngoài và lòng trong là số liệu ước tính phục vụ thuật toán; cần đo mẫu thực tế trước khi vận hành."
+    "measurementNote": "Kích thước ngoài và lòng trong là số liệu ước tính phục vụ thuật toán; cần đo mẫu thực tế trước khi vận hành.",
+    "shape": "box"
   }
 ]
