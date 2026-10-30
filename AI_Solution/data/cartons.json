@@ -3,5 +3,7 @@
  {"cartonId":"C002","name":"Small tuck-top","dimensions":{"L":27,"W":21,"H":14},"cost":3800,"maxLoad":4,"stock":120,"color":"#d9ae70"},
  {"cartonId":"C003","name":"Medium regular","dimensions":{"L":34,"W":27,"H":21},"cost":5500,"maxLoad":7,"stock":90,"color":"#d2a467"},
  {"cartonId":"C004","name":"Large double-wall","dimensions":{"L":42,"W":33,"H":28},"cost":8500,"maxLoad":12,"stock":55,"color":"#c69557"},
- {"cartonId":"C005","name":"XL bulk carton","dimensions":{"L":55,"W":43,"H":36},"cost":13500,"maxLoad":20,"stock":24,"color":"#b8844d"}
+ {"cartonId":"C005","name":"XL bulk carton","dimensions":{"L":55,"W":43,"H":36},"cost":13500,"maxLoad":20,"stock":24,"color":"#b8844d"},
+ {"cartonId":"C006","name":"XL Plus carton","dimensions":{"L":68,"W":52,"H":42},"cost":19500,"maxLoad":28,"stock":18,"color":"#aa7546"},
+ {"cartonId":"C007","name":"Oversize carton","dimensions":{"L":82,"W":62,"H":52},"cost":28500,"maxLoad":35,"stock":10,"color":"#98643e"}
 ]
