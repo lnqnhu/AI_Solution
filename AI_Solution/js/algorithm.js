@@ -1,4 +1,21 @@
 // Constraint Optimization prototype: filter infeasible cartons, then minimize total estimated cost.
+function fitsWithRotation(item,space){
+ const d=item.dimensions;
+ return [[d.L,d.W,d.H],[d.L,d.H,d.W],[d.W,d.L,d.H],[d.W,d.H,d.L],[d.H,d.L,d.W],[d.H,d.W,d.L]].some(([L,W,H])=>L<=space.L&&W<=space.W&&H<=space.H);
+}
+
+function makePackingUnits(lines){
+ const units=lines.flatMap(({product,quantity})=>Array.from({length:quantity},()=>({product,nested:null})));
+ const hosts=units.filter(unit=>unit.product.isHollow&&unit.product.allowNesting&&unit.product.internalDimensions);
+ const children=units.filter(unit=>!unit.product.isHollow||!unit.product.allowNesting);
+ const nestedItems=[];
+ for(const host of hosts){
+   const child=children.find(unit=>!unit.nested&&fitsWithRotation(unit.product,host.product.internalDimensions));
+   if(child){child.nested=host;nestedItems.push({containerSku:host.product.sku,itemSku:child.product.sku});}
+ }
+ return {units:units.filter(unit=>!unit.nested),nestedItems};
+}
+
 export function analyzeOrder(order,data,state){
  const productMap=new Map(data.products.map(p=>[p.sku,p]));
  const lines=order.items.map(line=>({product:productMap.get(line.sku),quantity:line.quantity})).filter(line=>line.product&&line.quantity>0);
@@ -6,8 +23,9 @@ export function analyzeOrder(order,data,state){
  const fragile=lines.some(line=>line.product.isFragile),buffer=fragile?data.materials.clearance.fragilePercent:data.materials.clearance.standardPercent;
  // Dimensional check uses the largest item's footprint; order volume and load account for quantity.
  // This is a packing estimate, not a 3D placement solver.
- const baseDimensions=lines.reduce((acc,line)=>({L:Math.max(acc.L,line.product.dimensions.L),W:Math.max(acc.W,line.product.dimensions.W),H:Math.max(acc.H,line.product.dimensions.H)}),{L:0,W:0,H:0});
- const productVolume=lines.reduce((sum,line)=>sum+line.product.dimensions.L*line.product.dimensions.W*line.product.dimensions.H*line.quantity,0);
+ const packing=makePackingUnits(lines),nestedItems=packing.nestedItems;
+ const baseDimensions=packing.units.reduce((acc,unit)=>({L:Math.max(acc.L,unit.product.dimensions.L),W:Math.max(acc.W,unit.product.dimensions.W),H:Math.max(acc.H,unit.product.dimensions.H)}),{L:0,W:0,H:0});
+ const productVolume=packing.units.reduce((sum,unit)=>sum+unit.product.dimensions.L*unit.product.dimensions.W*unit.product.dimensions.H,0);
  const requiredVolume=productVolume*(1+buffer/100),requiredWeight=lines.reduce((sum,line)=>sum+line.product.weight*line.quantity,0);
  const stock=state.cartonStock||{};
  const evaluated=data.cartons.map(carton=>{
@@ -22,7 +40,7 @@ export function analyzeOrder(order,data,state){
    return {carton,cost,feasible:inStock&&fitsDimensions&&fitsVolume&&fitsLoad,reasons,fragile,buffer,requiredVolume,productVolume,requiredWeight,baseDimensions,fillRatio:Math.min(100,productVolume/(d.L*d.W*d.H)*100)}
  });
  const feasible=evaluated.filter(x=>x.feasible).sort((a,b)=>a.cost.total-b.cost.total);
- return {feasible,rejected:evaluated.filter(x=>!x.feasible),best:feasible[0]||null,fragile,buffer,requiredVolume,productVolume,requiredWeight,lines};
+ return {feasible,rejected:evaluated.filter(x=>!x.feasible),best:feasible[0]||null,fragile,buffer,requiredVolume,productVolume,requiredWeight,baseDimensions,nestedItems,lines};
 }
 
 // Keep one customer order and split its contents into physical parcels, choosing the cheapest feasible carton for each.

@@ -15,7 +15,13 @@
     "icon": "▱",
     "tag": "BÁN CHẠY",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw939c376a/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HLE5100NS2_A80028093_1.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-locknlock-smart-keep-fresh-food-container-gi%E1%BB%AF-t%C6%B0%C6%A1i-m%C3%A1t---hle5100ns2/A80028093.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-locknlock-smart-keep-fresh-food-container-gi%E1%BB%AF-t%C6%B0%C6%A1i-m%C3%A1t---hle5100ns2/A80028093.html",
+    "capacity": "",
+    "description": "Hộp bảo quản thực phẩm gọn nhẹ, phù hợp lưu trữ và sắp xếp thực phẩm hằng ngày.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LBF401-7",
@@ -31,7 +37,13 @@
     "price": 126000,
     "tone": "blue",
     "icon": "▤",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw54652daf/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/LBF401-7-A80028327_1.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw54652daf/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/LBF401-7-A80028327_1.jpg?q=69&sw=800",
+    "capacity": "",
+    "description": "Hộp bảo quản thực phẩm gọn nhẹ, phù hợp lưu trữ và sắp xếp thực phẩm hằng ngày.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "HFL104D18",
@@ -47,7 +59,13 @@
     "price": 79000,
     "tone": "peach",
     "icon": "▱",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw2be047e8/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HFL104D18-A80024921_1.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw2be047e8/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HFL104D18-A80024921_1.jpg?q=69&sw=800",
+    "capacity": "1.65L",
+    "description": "Hộp bảo quản thực phẩm gọn nhẹ, phù hợp lưu trữ và sắp xếp thực phẩm hằng ngày.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LHC4321",
@@ -65,7 +83,13 @@
     "icon": "♧",
     "tag": "YÊU THÍCH",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw5046784c/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC4321%2CLHC4322-B80016637_7.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-sling-ring-tumbler-650ml/LHC4321.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-sling-ring-tumbler-650ml/LHC4321.html",
+    "capacity": "650ml",
+    "description": "Bình giữ nhiệt tiện mang theo khi đi làm, học tập hoặc di chuyển.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LHC3249",
@@ -83,7 +107,13 @@
     "icon": "♧",
     "tag": "LOCK&LOCK",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwd2600fd1/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC3249_2.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-energetic-tumbler-550ml/LHC3249.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-energetic-tumbler-550ml/LHC3249.html",
+    "capacity": "550ml",
+    "description": "Bình giữ nhiệt tiện mang theo khi đi làm, học tập hoặc di chuyển.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LHC6180FU",
@@ -100,7 +130,13 @@
     "tone": "sage",
     "icon": "♧",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw8940d32f/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC6180-B80007371_2.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-vacuum-bottle-800ml/LHC6180.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-vacuum-bottle-800ml/LHC6180.html",
+    "capacity": "800ml",
+    "description": "Bình giữ nhiệt tiện mang theo khi đi làm, học tập hoặc di chuyển.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LLG445",
@@ -118,7 +154,13 @@
     "icon": "▱",
     "tag": "THỦY TINH",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw9775d54e/images/thumbnails/2.Food%20Containers/1.Food%20Containers/1.Glass%20Containers/LLG445-A32347481_1.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-th%E1%BB%A7y-tinh-h%C3%ACnh-ch%E1%BB%AF-nh%E1%BA%ADt-locknlock-1.0l---llg445/A32347481.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-th%E1%BB%A7y-tinh-h%C3%ACnh-ch%E1%BB%AF-nh%E1%BA%ADt-locknlock-1.0l---llg445/A32347481.html",
+    "capacity": "1.0L",
+    "description": "Hộp bảo quản thân thủy tinh; sản phẩm được đánh dấu dễ vỡ để nhân viên chọn cách chèn lót phù hợp.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LLG428S5",
@@ -135,7 +177,13 @@
     "tone": "sage",
     "icon": "▤",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw4fd2a465/images/Product%20contents/2.Food%20Containers/Food%20Containers/LLG428S5-A32415868_1.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-5-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%A7y-tinh-locknlock-glass-euro-llg422%2A3%2C-llg428%2A2---llg428s5/A32415868.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-5-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%A7y-tinh-locknlock-glass-euro-llg422%2A3%2C-llg428%2A2---llg428s5/A32415868.html",
+    "capacity": "",
+    "description": "Hộp bảo quản thân thủy tinh; sản phẩm được đánh dấu dễ vỡ để nhân viên chọn cách chèn lót phù hợp.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LLG214",
@@ -151,7 +199,13 @@
     "price": 117000,
     "tone": "peach",
     "icon": "◉",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwa2da1177/images/thumbnails/2.Food%20Containers/1.Food%20Containers/1.Glass%20Containers/LLG214-A32014041_1.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwa2da1177/images/thumbnails/2.Food%20Containers/1.Food%20Containers/1.Glass%20Containers/LLG214-A32014041_1.jpg?q=69&sw=800",
+    "capacity": "500ml",
+    "description": "Hộp bảo quản thân thủy tinh; sản phẩm được đánh dấu dễ vỡ để nhân viên chọn cách chèn lót phù hợp.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "HLE5300NS2",
@@ -168,7 +222,13 @@
     "tone": "blue",
     "icon": "▱",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwd81045c7/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HLE5300NS2_A80028080_1.png?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-nh%E1%BB%B1a-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-locknlock-smart-keep-fresh-food-container-760ml---hle5300ns2/A80028080.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-nh%E1%BB%B1a-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-locknlock-smart-keep-fresh-food-container-760ml---hle5300ns2/A80028080.html",
+    "capacity": "760ml",
+    "description": "Hộp bảo quản thực phẩm gọn nhẹ, phù hợp lưu trữ và sắp xếp thực phẩm hằng ngày.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LHC3257",
@@ -184,7 +244,13 @@
     "price": 416000,
     "tone": "lavender",
     "icon": "♧",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw254fb72d/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC3257_1.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw254fb72d/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC3257_1.jpg?q=69&sw=800",
+    "capacity": "500ml",
+    "description": "Bình giữ nhiệt tiện mang theo khi đi làm, học tập hoặc di chuyển.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LBG454BLU",
@@ -200,7 +266,13 @@
     "price": 208000,
     "tone": "blue",
     "icon": "▱",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw56a5ec39/images/Product%20contents/2.Food%20Containers/Food%20Containers/LBG454BLU-A80014136_1.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw56a5ec39/images/Product%20contents/2.Food%20Containers/Food%20Containers/LBG454BLU-A80014136_1.jpg?q=69&sw=800",
+    "capacity": "1.6L",
+    "description": "Hộp bảo quản thân thủy tinh; sản phẩm được đánh dấu dễ vỡ để nhân viên chọn cách chèn lót phù hợp.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LBF450",
@@ -216,7 +288,13 @@
     "price": 64000,
     "tone": "peach",
     "icon": "▤",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw5c4ea703/images/Product%20contents/2.Food%20Containers/Food%20Containers/LBF450-A20023673_1.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw5c4ea703/images/Product%20contents/2.Food%20Containers/Food%20Containers/LBF450-A20023673_1.jpg?q=69&sw=800",
+    "capacity": "260ml",
+    "description": "Hộp bảo quản thực phẩm gọn nhẹ, phù hợp lưu trữ và sắp xếp thực phẩm hằng ngày.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LHC4160",
@@ -233,7 +311,13 @@
     "tone": "sage",
     "icon": "♧",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwe4434fe4/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC4160-B32669556_1.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-bang-thep-khong-gi-rigatumbler/LHC4160.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/binh-giu-nhiet-locknlock-bang-thep-khong-gi-rigatumbler/LHC4160.html",
+    "capacity": "897ml",
+    "description": "Bình giữ nhiệt tiện mang theo khi đi làm, học tập hoặc di chuyển.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LLG301S3",
@@ -248,7 +332,15 @@
     "isFragile": true,
     "price": 266000,
     "tone": "lavender",
-    "icon": "▤"
+    "icon": "▤",
+    "capacity": "",
+    "description": "Hộp bảo quản thân thủy tinh; sản phẩm được đánh dấu dễ vỡ để nhân viên chọn cách chèn lót phù hợp.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true,
+    "image": "https://image2.lotteimall.com/goods/53/55/53/2143535553_5.jpg/dims/resizemc/550x550/optimize",
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-3-h%E1%BB%99p-th%E1%BB%A7y-tinh-%C4%91%E1%BB%B1ng-th%E1%BB%A9c-%C4%83n-locknlock-easy-meal-glass-container-llg301s3-250ml%2A3-llg302s3-355ml%2A3/LLG302S3%2B%2B%2BLLG301S3.html"
   },
   {
     "sku": "HPL510",
@@ -265,7 +357,13 @@
     "tone": "sage",
     "icon": "▤",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw1f48cb5c/images/Product%20contents/2.Food%20Containers/Food%20Containers/HPL510-A32011621_1.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-g%E1%BA%A1o-special-12l-hpl510/A32011621.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-g%E1%BA%A1o-special-12l-hpl510/A32011621.html",
+    "capacity": "12L",
+    "description": "Hộp bảo quản thực phẩm gọn nhẹ, phù hợp lưu trữ và sắp xếp thực phẩm hằng ngày.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LHC1487",
@@ -281,7 +379,13 @@
     "price": 403000,
     "tone": "peach",
     "icon": "♧",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw9da07a26/images/thumbnails/1.Beverageware/2.To-go/LHC1487-lifestyle.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw9da07a26/images/thumbnails/1.Beverageware/2.To-go/LHC1487-lifestyle.jpg?q=69&sw=800",
+    "capacity": "505ml",
+    "description": "Bình giữ nhiệt tiện mang theo khi đi làm, học tập hoặc di chuyển.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LLG215",
@@ -298,7 +402,13 @@
     "tone": "blue",
     "icon": "▱",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw972b78ec/images/Product%20contents/2.Food%20Containers/Food%20Containers/LLG215.jfif?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-th%E1%BB%A7y-tinh-locknlock-glass-clear-square-a.f.c-540ml---llg215/A32338641.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/h%E1%BB%99p-th%E1%BB%A7y-tinh-locknlock-glass-clear-square-a.f.c-540ml---llg215/A32338641.html",
+    "capacity": "540ml",
+    "description": "Hộp bảo quản thân thủy tinh; sản phẩm được đánh dấu dễ vỡ để nhân viên chọn cách chèn lót phù hợp.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LBF402S5SP",
@@ -313,7 +423,15 @@
     "isFragile": false,
     "price": 471000,
     "tone": "lavender",
-    "icon": "▱"
+    "icon": "▱",
+    "capacity": "",
+    "description": "Hộp bảo quản thực phẩm gọn nhẹ, phù hợp lưu trữ và sắp xếp thực phẩm hằng ngày.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true,
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw9f863753/images/Product%20contents/2.Food%20Containers/Food%20Containers/LBF402S6SP-A80003393_1.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-5-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-h%C3%ACnh-ch%E1%BB%AF-nh%E1%BA%ADt-locknlock-bisfree-modular-lbf401%2A2%2C-lbf402%2A2%2C-lbf405%2A1---m%C3%A0u-n%C3%A2u---lbf402s5sp/A80003840.html"
   },
   {
     "sku": "LHC4440",
@@ -330,7 +448,13 @@
     "tone": "blue",
     "icon": "♧",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwcecbd6ea/images/thumbnails/1.Beverageware/2.To-go/1.Tumblers/LHC4440-B80025185_1.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/b%C3%ACnh-gi%E1%BB%AF-nhi%E1%BB%87t-ph%E1%BB%A7-s%E1%BB%A9-locknlock-blissoul-pure-tumbler-lhc4440-c%C3%B3-quai-x%C3%A1ch-dung-t%C3%ADch-700ml---6-m%C3%A0u/LHC4440.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%C3%ACnh-gi%E1%BB%AF-nhi%E1%BB%87t-ph%E1%BB%A7-s%E1%BB%A9-locknlock-blissoul-pure-tumbler-lhc4440-c%C3%B3-quai-x%C3%A1ch-dung-t%C3%ADch-700ml---6-m%C3%A0u/LHC4440.html",
+    "capacity": "700ml",
+    "description": "Bình giữ nhiệt tiện mang theo khi đi làm, học tập hoặc di chuyển.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LLG205S6",
@@ -348,7 +472,13 @@
     "icon": "▤",
     "tag": "BỘ SƯU TẬP",
     "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw4aad59f4/images/thumbnails/2.Food%20Containers/1.Food%20Containers/1.Glass%20Containers/LLG205S6-A32336631_1.jpg?q=69&sw=800",
-    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-6-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-th%E1%BB%B1c-ph%E1%BA%A9m-locknlockx6p-llg205x2%2C-llg422x2%2C-llg821x2-wcolor-box---llg205s6/A32336631.html"
+    "productUrl": "https://www.locknlock.vn/vi-vn/b%E1%BB%99-6-h%E1%BB%99p-b%E1%BA%A3o-qu%E1%BA%A3n-th%E1%BB%B1c-ph%E1%BA%A9m-th%E1%BB%B1c-ph%E1%BA%A9m-locknlockx6p-llg205x2%2C-llg422x2%2C-llg821x2-wcolor-box---llg205s6/A32336631.html",
+    "capacity": "",
+    "description": "Hộp bảo quản thân thủy tinh; sản phẩm được đánh dấu dễ vỡ để nhân viên chọn cách chèn lót phù hợp.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "HPP453NVY",
@@ -364,7 +494,13 @@
     "price": 111000,
     "tone": "peach",
     "icon": "◉",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwcaea167a/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HPP453NVY-A80022291_1.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dwcaea167a/images/thumbnails/2.Food%20Containers/1.Food%20Containers/2.Plastic%20Containers/HPP453NVY-A80022291_1.jpg?q=69&sw=800",
+    "capacity": "4.2L",
+    "description": "Bình đựng nước dùng tại nhà hoặc mang theo trong ngày.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LHC8042NVY",
@@ -380,7 +516,13 @@
     "price": 621000,
     "tone": "lavender",
     "icon": "♧",
-    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw3f5fa763/images/thumbnails/2.Food%20Containers/3.Lunch%20Boxes/1.Insulated%20Lunch%20Boxes/LHC8042-B80010827_1.jpg?q=69&sw=800"
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw3f5fa763/images/thumbnails/2.Food%20Containers/3.Lunch%20Boxes/1.Insulated%20Lunch%20Boxes/LHC8042-B80010827_1.jpg?q=69&sw=800",
+    "capacity": "700ml",
+    "description": "Hộp đựng bữa ăn cá nhân, tiện mang theo.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true
   },
   {
     "sku": "LLG242",
@@ -395,6 +537,43 @@
     "isFragile": true,
     "price": 132000,
     "tone": "peach",
-    "icon": "▱"
+    "icon": "▱",
+    "capacity": "800ml",
+    "description": "Hộp bảo quản thân thủy tinh; sản phẩm được đánh dấu dễ vỡ để nhân viên chọn cách chèn lót phù hợp.",
+    "isHollow": false,
+    "internalDimensions": null,
+    "allowNesting": false,
+    "dimensionsEstimated": true,
+    "image": "https://down-th.img.susercontent.com/file/th-11134207-81zte-mhz5tnjaxi4j0a",
+    "productUrl": "https://www.locknlock.vn/vi-vn/hop-thuy-tinh-chiu-nhiet-nap-vom-nhua-tritan-locknlock/B80005865.html"
+  },
+  {
+    "sku": "LBW240W",
+    "name": "Rổ đựng đồ nhà tắm LocknLock",
+    "category": "Đồ dùng nhà tắm",
+    "dimensions": {
+      "L": 34,
+      "W": 26,
+      "H": 18
+    },
+    "weight": 0.6,
+    "isFragile": false,
+    "price": 429000,
+    "tone": "peach",
+    "icon": "▤",
+    "tag": "RỔ ĐỰNG ĐỒ",
+    "image": "https://www.locknlock.vn/dw/image/v2/BLBT_PRD/on/demandware.static/-/Sites-locknlock-shared-master/default/dw25359c6b/images/Product%20contents/5.Householding%20Items/Bath%20Supplies/LBW240WI-A32300921_2.jpg?q=69&sw=800",
+    "productUrl": "https://www.locknlock.vn/vi-vn/r%E1%BB%95-%C4%91%E1%BB%B1ng-%C4%91%E1%BB%93-nh%C3%A0-t%E1%BA%AFm-locknlock---m%C3%A0u-r%C6%B0%E1%BB%A3u-%C4%91%E1%BB%8F---lbw240w/A32300921.html",
+    "capacity": "",
+    "description": "Rổ nhựa hở miệng dùng sắp xếp đồ dùng nhà tắm. Có thể chứa một sản phẩm nhỏ nếu kích thước phù hợp.",
+    "isHollow": true,
+    "internalDimensions": {
+      "L": 31,
+      "W": 23,
+      "H": 15
+    },
+    "allowNesting": true,
+    "dimensionsEstimated": true,
+    "measurementNote": "Kích thước ngoài và lòng trong là số liệu ước tính phục vụ thuật toán; cần đo mẫu thực tế trước khi vận hành."
   }
 ]

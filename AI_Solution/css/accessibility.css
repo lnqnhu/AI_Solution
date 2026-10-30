@@ -38,3 +38,7 @@ body{font-size:16px;font-weight:500;line-height:1.6}
 .eyebrow,.result-kicker,.carton-label,.result-chip,.fragile-mark,.live-pill,.live-indicator,.staff-breadcrumb{font-size:12px}
 .package-plan-items .image-fallback{inset:auto;top:0;left:0}
 .package-plan-items span{padding-left:33px}
+
+.has-photo .image-fallback{display:none}
+
+.nesting-alert{margin:9px 0;padding:11px 13px;border:1px solid #d5e7d9;border-radius:7px;background:#f3f8f4;color:#426d4d;font-size:13px;font-weight:600;line-height:1.55}

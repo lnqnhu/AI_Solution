@@ -16,15 +16,18 @@ Mở `http://localhost:8000/`, sau đó chọn **Khách hàng** hoặc **Nhân v
 
 - `index.html`: chọn vai trò.
 - `customer.html`, `js/customer.js`, `css/customer.css`: danh mục, giỏ hàng và tạo đơn.
+- `product.html`, `js/product-detail.js`, `css/product-detail.css`: trang chi tiết sản phẩm, thông số, dung tích và khả năng lồng ghép.
 - `staff.html`, `js/staff.js`, `css/staff.css`: hàng đợi, phân tích, xác nhận, lịch sử và CSV.
 - `css/accessibility.css`: cỡ chữ, tương phản và giao diện ảnh sản phẩm.
-- `js/algorithm.js`: lọc carton theo kích thước, thể tích, tải trọng và tồn kho; lập phương án nhiều kiện.
+- `js/algorithm.js`: lọc carton theo kích thước, thể tích, tải trọng và tồn kho; kiểm tra lồng ghép có điều kiện và lập phương án nhiều kiện.
 - `js/data.js`: nạp JSON, lưu trạng thái và các tiện ích dữ liệu.
 - `data/products.json`, `data/cartons.json`, `data/materials.json`: dữ liệu sản phẩm, carton và vật liệu/cước.
 
 ## Dữ liệu và giả định
 
-Tên, ảnh và một số giá bán tham khảo được lấy từ cửa hàng Lock&Lock Việt Nam; giá bán có thể thay đổi. Thông tin kích thước/khối lượng SKU cần được xác minh với mẫu hàng thực tế. Ảnh sản phẩm được hiển thị từ CDN chính thức của Lock&Lock.
+Tên, ảnh và một số giá bán tham khảo được lấy từ cửa hàng Lock&Lock Việt Nam; giá bán có thể thay đổi. Ảnh sản phẩm dùng URL CDN của Lock&Lock nếu có; các ảnh còn lại là ảnh tham khảo sản phẩm cùng mẫu/dòng. Thông tin kích thước/khối lượng SKU và kích thước lòng trong của rổ là số liệu ước tính trong bộ dữ liệu này, cần được xác minh với mẫu hàng thực tế.
+
+Mỗi SKU có các thuộc tính `isHollow`, `internalDimensions` và `allowNesting`. Ví dụ rổ LBW240W được đánh dấu là vật chứa rỗng, có lòng trong ước tính `31 × 23 × 15 cm`; bình LHC6180 có thể được lồng vào rổ khi một trong các hướng xoay vừa với kích thước lòng trong. Khi lồng thành công, thuật toán chỉ cộng thể tích bao ngoài của rổ vào tổng thể tích đóng gói, nhưng vẫn cộng khối lượng của cả rổ và bình. Đây là kiểm tra lồng một sản phẩm con vào mỗi vật chứa, không phải bộ giải xếp 3D.
 
 Cước đang dùng tham số cấu hình 20.000 VND cho kiện đầu và 20.000 VND cho mỗi kiện thêm. Tổng cước theo kiện được lưu thành một khoản trên một mã đơn; việc chia kiện có thể tăng cước vì hãng vận chuyển có thể tạo vận đơn riêng cho từng kiện. Đây là ước tính để trình bày luồng, chưa kết nối API SPX hoặc Viettel Post và cần cập nhật theo tuyến, khối lượng, kích thước cùng chính sách hãng.
 
