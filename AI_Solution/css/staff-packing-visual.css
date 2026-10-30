@@ -1,0 +1,18 @@
+/* Packing station readability and packing layout illustration */
+.staff-page{font-size:16px}
+.staff-welcome p,.panel-head p,.order-desc,.orders-foot{font-size:14px;line-height:1.55}
+.metric-label{font-size:14px}.metric-value{font-size:28px}.metric-trend{font-size:13px}
+.panel-title{font-size:17px}.order-tab{font-size:14px}.order-id{font-size:15px}.order-status{font-size:12px}.order-price{font-size:13px}
+.analysis-empty h2,.result-heading h2,.ready-heading h2{font-size:23px}.analysis-empty p,.result-heading p,.ready-heading p{font-size:15px}
+.recommended-carton h3{font-size:21px}.recommended-carton p{font-size:14px}.carton-label,.result-kicker{font-size:12px}
+.block-title,.criteria,.cost-row{font-size:14px;line-height:1.55}.cost-row.total{font-size:14px}.cost-row.total b{font-size:16px}
+.result-button,.history-export{font-size:14px}.result-note,.compare-title,.saving-note{font-size:13px}.fragile-alert{font-size:15px}
+.package-product b,.package-product strong{font-size:14px}.package-product small{font-size:13px}
+.history-heading h2{font-size:20px}.history-heading p,.history-table td{font-size:14px}.history-table th{font-size:13px}
+.packing-diagram{margin:12px 0;padding:14px 16px;border:1px solid #dfe9ed;border-radius:10px;background:linear-gradient(145deg,#fbfdfe,#f2f7f8)}
+.packing-diagram-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px}
+.packing-diagram-head>div{display:grid;gap:3px}.packing-diagram-head b{font-size:16px;color:#294b5d}.packing-diagram-head span{font-size:13px;color:#748790}
+.diagram-legend{display:flex;align-items:center;gap:6px;white-space:nowrap}.diagram-legend i{width:11px;height:11px;border-radius:50%;background:#dcebf0;border:2px solid #3c7188}
+.packing-diagram svg{display:block;width:100%;max-height:250px;min-height:100px;margin:6px auto;overflow:visible}
+.packing-diagram>small{display:block;color:#697d87;font-size:12px;line-height:1.5}
+@media(max-width:520px){.staff-welcome p,.panel-head p,.order-desc,.criteria,.cost-row{font-size:13px}.packing-diagram{padding:12px}.packing-diagram-head b{font-size:15px}}
